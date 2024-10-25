@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-19)
+## Unreleased (2024-10-25)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`def99de`](https://github.com/stdlib-js/stdlib/commit/def99deab9d392f322f0e005be7c08dac2aa5014) - **build:** update compiler flags and export resolution _(by Athan Reines)_
 -   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - **feat:** add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987) _(by Aman Bhansali, Athan Reines)_
 
 </details>
