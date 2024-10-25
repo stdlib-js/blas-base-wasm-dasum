@@ -199,7 +199,7 @@ var dtype = 'float64';
 // Specify a vector length:
 var N = 5;
 
-// Define pointer (i.e., byte offsets) for storing the input vectors:
+// Define a pointer (i.e., byte offset) for storing the input vector:
 var xptr = 0;
 
 // Write vector values to module memory:
@@ -246,7 +246,7 @@ var dtype = 'float64';
 // Specify a vector length:
 var N = 5;
 
-// Define pointer (i.e., byte offsets) for storing the input vector:
+// Define a pointer (i.e., byte offset) for storing the input vector:
 var xptr = 0;
 
 // Write vector values to module memory:
