@@ -24,7 +24,7 @@ on:
   # Run workflow on a weekly schedule:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '33 9 * * 4'
+    - cron:  '23 11 * * 4'
 
   # Allow the workflow to be manually run:
   workflow_dispatch:

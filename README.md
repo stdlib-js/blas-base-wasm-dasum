@@ -40,7 +40,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/blas-base-dasum-wasm
+npm install @stdlib/blas-base-wasm-dasum
 ```
 
 Alternatively,
@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var dasum = require( '@stdlib/blas-base-dasum-wasm' );
+var dasum = require( '@stdlib/blas-base-wasm-dasum' );
 ```
 
 #### dasum.main( N, x, stride )
@@ -289,7 +289,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var dasum = require( '@stdlib/blas-base-dasum-wasm' );
+var dasum = require( '@stdlib/blas-base-wasm-dasum' );
 
 var opts = {
     'dtype': 'float64'
@@ -349,19 +349,19 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-dasum-wasm.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-base-dasum-wasm
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-wasm-dasum.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-base-wasm-dasum
 
-[test-image]: https://github.com/stdlib-js/blas-base-dasum-wasm/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-dasum-wasm/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-wasm-dasum/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-wasm-dasum/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-dasum-wasm/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-dasum-wasm?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-wasm-dasum/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-wasm-dasum?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-dasum-wasm.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-dasum-wasm/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-wasm-dasum.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-wasm-dasum/main
 
 -->
 
@@ -375,15 +375,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/blas-base-dasum-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-dasum-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-dasum-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-dasum-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-dasum-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-dasum-wasm/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-base-dasum-wasm/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-dasum/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-dasum/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-dasum/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-dasum/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-dasum/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-dasum/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-base-wasm-dasum/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-dasum-wasm/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-wasm-dasum/main/LICENSE
 
 [blas]: http://www.netlib.org/blas
 
