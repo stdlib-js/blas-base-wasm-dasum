@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dasum@deno/mod.js';
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dasum@v0.1.0-deno/mod.js';
 ```
 
 #### dasum.main( N, x, stride )
@@ -271,7 +271,7 @@ The function has the following additional parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dasum@deno/mod.js';
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dasum@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
